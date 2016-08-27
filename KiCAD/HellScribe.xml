@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/craig/Desktop/HellScribe/HellScribe.sch</source>
+    <date>Friday, August 26, 2016 'PMt' 03:55:05 PM</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HellScribe.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM393</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm193.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part #">LM393DR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">296-1015-1-ND</field>
+      </fields>
+      <libsource lib="linear" part="LM393"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB444</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-07100RL</field>
+        <field name="Vendor">Digieky</field>
+        <field name="Vendor Part #">311-100HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB52C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part #">GRM188R72A104KA35D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">490-3285-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB54F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB6CE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB81E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>11k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0711KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-11.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB90E</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFB96B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part #">GRM188R72A104KA35D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">490-3285-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFBB83</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part #">GRM188R72A104KA35D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">490-3285-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFBD7E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-072K2L</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-2.20KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFC0E9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFC59F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCB26</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCB8D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCC34</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCD29</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCD85</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCF58</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFCFB4</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD015</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD0BF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD129</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD194</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD200</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD270</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD2E1</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.optekinc.com/datasheets/OVLEW1CB9.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">Optek Technology</field>
+        <field name="Manufacturer Part #">OVLEW1CB9</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">365-1177-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFD355</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFE6CC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFE7CA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-0710KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFE866</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.4M</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer Part #">CRCW06032M40FKEA</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">541-2.40MHCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFED36</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H222JA01-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part #">GRM1885C1H222JA01D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">490-1459-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFEE39</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0402FR-071KL</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">311-1.00KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFF6F6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part #">RC0603FR-07100RL</field>
+        <field name="Vendor">Digieky</field>
+        <field name="Vendor Part #">311-100HRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C00324</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part #">GRM188R72A104KA35D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">490-3285-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C00851</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C0473B</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C04CE5</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C04D81</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C04ED0</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C04F7B</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C05023</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C050D0</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part #">FDV304P</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">FDV304PCT-ND</field>
+      </fields>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C05358</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CD4022</value>
+      <footprint>SMD_Packages:SO-16-N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4017b.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part #">CD4022BNSR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">296-14098-1-ND</field>
+      </fields>
+      <libsource lib="cmos4000" part="4022"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BFC727</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMMT3904W</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-6_Handsoldering</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30311.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Inc.</field>
+        <field name="Manufacturer Part #">DMMT3904W-7-F</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">DMMT3904W-FDICT-ND</field>
+      </fields>
+      <libsource lib="DMMTransistors" part="DMMT3904W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C0676F</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>+12v</value>
+      <footprint>Connect:BARREL_JACK</footprint>
+      <datasheet>http://www.cui.com/product/resource/digikeypdf/pj-002a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Manufacturer Part #">PJ-002A</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">CP-002A-ND</field>
+      </fields>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C08677</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part #">GRM188R72A104KA35D</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">490-3285-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C087CD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>STX-3100-5N</value>
+      <footprint>STX3100-5N:STX3100</footprint>
+      <datasheet>http://www.cui.com/product/resource/sj1-355xng-series.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Manufacturer Part #">SJ1-3555NG</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor Part #">CP1-3555NG-ND</field>
+      </fields>
+      <libsource lib="STX3100" part="STX-3100-5N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C0A233</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cmos4000" part="4022">
+      <description>Jonhson Counter (8 states)</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4022</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q1" type="output"/>
+        <pin num="2" name="Q0" type="output"/>
+        <pin num="3" name="Q2" type="output"/>
+        <pin num="4" name="Q5" type="output"/>
+        <pin num="5" name="Q6" type="output"/>
+        <pin num="7" name="Q3" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="10" name="Q7" type="output"/>
+        <pin num="11" name="Q4" type="output"/>
+        <pin num="12" name="Cout" type="output"/>
+        <pin num="13" name="CKEN" type="input"/>
+        <pin num="14" name="CLK" type="input"/>
+        <pin num="15" name="Reset" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DMMTransistors" part="DMMT3904W">
+      <footprints>
+        <fp>SOT-363</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMMT3904W</field>
+        <field name="Footprint">SOT-363</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="E" type="passive"/>
+        <pin num="5" name="E" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM2903">
+      <aliases>
+        <alias>LM293</alias>
+        <alias>LM393</alias>
+        <alias>LM193</alias>
+      </aliases>
+      <description>Dual Voltage Comparator</description>
+      <docs>ns/lm193.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2903</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="_" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="STX3100" part="STX-3100-5N">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">STX-3100-5N</field>
+        <field name="Footprint">STX3100-5N:STX3100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/Library/Application Support/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="cmos4000">
+      <uri>/Library/Application Support/kicad/library/cmos4000.lib</uri>
+    </library>
+    <library logical="DMMTransistors">
+      <uri>/Users/craig/Desktop/HellScribe/libs/Schematic/DMMTransistors.lib</uri>
+    </library>
+    <library logical="STX3100">
+      <uri>/Users/craig/Desktop/HellScribe/libs/Schematic/STX3100.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q5-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Q4-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Q3-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(Q2-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D9-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D11-Pad2)">
+      <node ref="Q7" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D13-Pad2)">
+      <node ref="Q8" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="Q9" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D13-Pad1)">
+      <node ref="D14" pin="2"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="17" name="+12V">
+      <node ref="R9" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Q9-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="19" name="Net-(Q8-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="20" name="Net-(Q7-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q6-Pad1)">
+      <node ref="U2" pin="11"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D5-Pad1)">
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D10-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D15-Pad1)">
+      <node ref="D16" pin="2"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="R5" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R1-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="35" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C4-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="37" name="VDD">
+      <node ref="C1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="38" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="40" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C3-Pad2)">
+      <node ref="J1" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>
