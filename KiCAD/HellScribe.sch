@@ -29,15 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:STX3100
-LIBS:HellScribe-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "HellScribe"
+Date "08/28/2016"
+Rev "v1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1208,47 +1207,40 @@ $EndComp
 $Comp
 L C C6
 U 1 1 57C087CD
-P 9550 1800
-F 0 "C6" H 9600 1700 50  0000 L CNN
-F 1 "0.1uF" H 9300 1900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9588 1650 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf" H 9550 1800 50  0001 C CNN
-F 4 "Murata" V 9550 1800 60  0001 C CNN "Manufacturer"
-F 5 "GRM188R72A104KA35D" V 9550 1800 60  0001 C CNN "Manufacturer Part #"
-F 6 "Digikey" V 9550 1800 60  0001 C CNN "Vendor"
-F 7 "490-3285-1-ND" V 9550 1800 60  0001 C CNN "Vendor Part #"
-	1    9550 1800
+P 9800 1800
+F 0 "C6" H 9850 1700 50  0000 L CNN
+F 1 "0.1uF" H 9550 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9838 1650 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R72A104KA35-01.pdf" H 9800 1800 50  0001 C CNN
+F 4 "Murata" V 9800 1800 60  0001 C CNN "Manufacturer"
+F 5 "GRM188R72A104KA35D" V 9800 1800 60  0001 C CNN "Manufacturer Part #"
+F 6 "Digikey" V 9800 1800 60  0001 C CNN "Vendor"
+F 7 "490-3285-1-ND" V 9800 1800 60  0001 C CNN "Vendor Part #"
+	1    9800 1800
 	-1   0    0    1   
 $EndComp
 $Comp
 L +12V #PWR024
 U 1 1 57C08BEE
-P 9550 1450
-F 0 "#PWR024" H 9550 1300 50  0001 C CNN
-F 1 "+12V" H 9550 1590 50  0000 C CNN
-F 2 "" H 9550 1450 50  0000 C CNN
-F 3 "" H 9550 1450 50  0000 C CNN
-	1    9550 1450
+P 9000 1400
+F 0 "#PWR024" H 9000 1250 50  0001 C CNN
+F 1 "+12V" H 9000 1540 50  0000 C CNN
+F 2 "" H 9000 1400 50  0000 C CNN
+F 3 "" H 9000 1400 50  0000 C CNN
+	1    9000 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 1450 9550 1650
-Wire Wire Line
-	9200 1600 10200 1600
-Connection ~ 9550 1600
 $Comp
 L GND #PWR025
 U 1 1 57C09244
-P 9550 2150
-F 0 "#PWR025" H 9550 1900 50  0001 C CNN
-F 1 "GND" H 9550 2000 50  0000 C CNN
-F 2 "" H 9550 2150 50  0000 C CNN
-F 3 "" H 9550 2150 50  0000 C CNN
-	1    9550 2150
+P 9800 2150
+F 0 "#PWR025" H 9800 1900 50  0001 C CNN
+F 1 "GND" H 9800 2000 50  0000 C CNN
+F 2 "" H 9800 2150 50  0000 C CNN
+F 3 "" H 9800 2150 50  0000 C CNN
+	1    9800 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 1950 9550 2150
 Wire Wire Line
 	10200 1700 10100 1700
 Wire Wire Line
@@ -1270,32 +1262,25 @@ Connection ~ 10100 1800
 $Comp
 L PWR_FLAG #FLG027
 U 1 1 57C09943
-P 9200 1500
-F 0 "#FLG027" H 9200 1595 50  0001 C CNN
-F 1 "PWR_FLAG" H 9200 1680 50  0000 C CNN
-F 2 "" H 9200 1500 50  0000 C CNN
-F 3 "" H 9200 1500 50  0000 C CNN
-	1    9200 1500
+P 8600 1450
+F 0 "#FLG027" H 8600 1545 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 1630 50  0000 C CNN
+F 2 "" H 8600 1450 50  0000 C CNN
+F 3 "" H 8600 1450 50  0000 C CNN
+	1    8600 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 1500 9200 1600
 $Comp
 L PWR_FLAG #FLG028
 U 1 1 57C09AA9
-P 9200 2100
-F 0 "#FLG028" H 9200 2195 50  0001 C CNN
-F 1 "PWR_FLAG" H 9200 2280 50  0000 C CNN
-F 2 "" H 9200 2100 50  0000 C CNN
-F 3 "" H 9200 2100 50  0000 C CNN
-	1    9200 2100
+P 8600 2150
+F 0 "#FLG028" H 8600 2245 50  0001 C CNN
+F 1 "PWR_FLAG" H 8600 2330 50  0000 C CNN
+F 2 "" H 8600 2150 50  0000 C CNN
+F 3 "" H 8600 2150 50  0000 C CNN
+	1    8600 2150
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	9200 2100 9200 2000
-Wire Wire Line
-	9200 2000 9550 2000
-Connection ~ 9550 2000
 Wire Wire Line
 	2000 5850 2300 5850
 Wire Wire Line
@@ -1378,4 +1363,66 @@ Wire Wire Line
 	5200 6100 5200 6350
 Wire Wire Line
 	5200 6950 5200 6750
+Wire Wire Line
+	9800 1650 9800 1600
+Connection ~ 9800 1600
+Wire Wire Line
+	9800 2150 9800 1950
+Wire Wire Line
+	9700 1600 10200 1600
+$Comp
+L INDUCTOR L1
+U 1 1 57C317C9
+P 9400 1600
+F 0 "L1" V 9350 1600 50  0000 C CNN
+F 1 "10uH" V 9500 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9400 1600 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_mlz2012_en.pdf" H 9400 1600 50  0001 C CNN
+F 4 "TDK Corporation" V 9400 1600 60  0001 C CNN "Manufacturer"
+F 5 "MLZ2012N100LT000" V 9400 1600 60  0001 C CNN "Manufacturer Part #"
+F 6 "Digikey" V 9400 1600 60  0001 C CNN "Vendor"
+F 7 "445-6762-1-ND" V 9400 1600 60  0001 C CNN "Vendor Part #"
+	1    9400 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C7
+U 1 1 57C31892
+P 9000 1800
+F 0 "C7" H 9050 1700 50  0000 L CNN
+F 1 "10uF" H 8750 1900 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 9038 1650 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 9000 1800 50  0001 C CNN
+F 4 "TDK Corporation" V 9000 1800 60  0001 C CNN "Manufacturer"
+F 5 "C3216X7R1V106M160AC" V 9000 1800 60  0001 C CNN "Manufacturer Part #"
+F 6 "Digikey" V 9000 1800 60  0001 C CNN "Vendor"
+F 7 "445-8034-1-ND" V 9000 1800 60  0001 C CNN "Vendor Part #"
+	1    9000 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8600 1600 9100 1600
+Wire Wire Line
+	9000 1400 9000 1650
+$Comp
+L GND #PWR029
+U 1 1 57C31C65
+P 9000 2150
+F 0 "#PWR029" H 9000 1900 50  0001 C CNN
+F 1 "GND" H 9000 2000 50  0000 C CNN
+F 2 "" H 9000 2150 50  0000 C CNN
+F 3 "" H 9000 2150 50  0000 C CNN
+	1    9000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2150 9000 1950
+Connection ~ 9000 1600
+Wire Wire Line
+	8600 1600 8600 1450
+Wire Wire Line
+	8600 2150 8600 2000
+Wire Wire Line
+	8600 2000 9000 2000
+Connection ~ 9000 2000
 $EndSCHEMATC
