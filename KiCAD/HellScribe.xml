@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/craig/Desktop/HellScribe/KiCAD/HellScribe.sch</source>
-    <date>Sunday, August 28, 2016 'PMt' 12:27:52 PM</date>
+    <date>Monday, September 12, 2016 'PMt' 09:02:24 PM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -900,9 +900,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="STX3100">
-      <uri>/Users/craig/Desktop/HellScribe/KiCAD/libs/Schematic/STX3100.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
@@ -917,6 +914,9 @@
     </library>
     <library logical="cmos4000">
       <uri>/Library/Application Support/kicad/library/cmos4000.lib</uri>
+    </library>
+    <library logical="STX3100">
+      <uri>/Users/craig/Desktop/HellScribe/KiCAD/libs/Schematic/STX3100.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:STX3100
+LIBS:HellScribe-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -832,7 +833,7 @@ L Q_PMOS_GSD Q9
 U 1 1 57C0473B
 P 8050 4600
 F 0 "Q9" H 8350 4650 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 8700 4550 50  0000 R CNN
+F 1 "FDV304P" H 8700 4550 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8250 4700 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 8050 4600 50  0001 C CNN
 F 4 "Fairchild" H 8050 4600 60  0001 C CNN "Manufacturer"
@@ -840,14 +841,14 @@ F 5 "FDV304P" H 8050 4600 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 8050 4600 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 8050 4600 60  0001 C CNN "Vendor Part #"
 	1    8050 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q8
 U 1 1 57C04CE5
 P 7700 4200
 F 0 "Q8" H 8000 4250 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 8350 4150 50  0000 R CNN
+F 1 "FDV304P" H 8350 4150 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7900 4300 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 7700 4200 50  0001 C CNN
 F 4 "Fairchild" H 7700 4200 60  0001 C CNN "Manufacturer"
@@ -855,14 +856,14 @@ F 5 "FDV304P" H 7700 4200 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 7700 4200 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 7700 4200 60  0001 C CNN "Vendor Part #"
 	1    7700 4200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q7
 U 1 1 57C04D81
 P 7350 3800
 F 0 "Q7" H 7650 3850 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 8000 3750 50  0000 R CNN
+F 1 "FDV304P" H 8000 3750 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7550 3900 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 7350 3800 50  0001 C CNN
 F 4 "Fairchild" H 7350 3800 60  0001 C CNN "Manufacturer"
@@ -870,14 +871,14 @@ F 5 "FDV304P" H 7350 3800 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 7350 3800 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 7350 3800 60  0001 C CNN "Vendor Part #"
 	1    7350 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q6
 U 1 1 57C04ED0
 P 7000 3400
 F 0 "Q6" H 7300 3450 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 7650 3350 50  0000 R CNN
+F 1 "FDV304P" H 7650 3350 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7200 3500 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 7000 3400 50  0001 C CNN
 F 4 "Fairchild" H 7000 3400 60  0001 C CNN "Manufacturer"
@@ -885,14 +886,14 @@ F 5 "FDV304P" H 7000 3400 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 7000 3400 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 7000 3400 60  0001 C CNN "Vendor Part #"
 	1    7000 3400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q5
 U 1 1 57C04F7B
 P 6650 3000
 F 0 "Q5" H 6950 3050 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 7300 2950 50  0000 R CNN
+F 1 "FDV304P" H 7300 2950 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6850 3100 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 6650 3000 50  0001 C CNN
 F 4 "Fairchild" H 6650 3000 60  0001 C CNN "Manufacturer"
@@ -900,14 +901,14 @@ F 5 "FDV304P" H 6650 3000 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 6650 3000 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 6650 3000 60  0001 C CNN "Vendor Part #"
 	1    6650 3000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q4
 U 1 1 57C05023
 P 6300 2600
 F 0 "Q4" H 6600 2650 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 6950 2550 50  0000 R CNN
+F 1 "FDV304P" H 6950 2550 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 2700 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 6300 2600 50  0001 C CNN
 F 4 "Fairchild" H 6300 2600 60  0001 C CNN "Manufacturer"
@@ -915,14 +916,14 @@ F 5 "FDV304P" H 6300 2600 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 6300 2600 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 6300 2600 60  0001 C CNN "Vendor Part #"
 	1    6300 2600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q3
 U 1 1 57C050D0
 P 5950 2200
 F 0 "Q3" H 6250 2250 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 6600 2150 50  0000 R CNN
+F 1 "FDV304P" H 6600 2150 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6150 2300 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 5950 2200 50  0001 C CNN
 F 4 "Fairchild" H 5950 2200 60  0001 C CNN "Manufacturer"
@@ -930,14 +931,14 @@ F 5 "FDV304P" H 5950 2200 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 5950 2200 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 5950 2200 60  0001 C CNN "Vendor Part #"
 	1    5950 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_PMOS_GSD Q2
 U 1 1 57C05358
 P 5600 1800
 F 0 "Q2" H 5900 1850 50  0000 R CNN
-F 1 "Q_PMOS_GSD" H 6250 1750 50  0000 R CNN
+F 1 "FDV304P" H 6250 1750 50  0001 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5800 1900 50  0001 C CNN
 F 3 "http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf" H 5600 1800 50  0001 C CNN
 F 4 "Fairchild" H 5600 1800 60  0001 C CNN "Manufacturer"
@@ -945,7 +946,7 @@ F 5 "FDV304P" H 5600 1800 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" H 5600 1800 60  0001 C CNN "Vendor"
 F 7 "FDV304PCT-ND" H 5600 1800 60  0001 C CNN "Vendor Part #"
 	1    5600 1800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L +12V #PWR019
