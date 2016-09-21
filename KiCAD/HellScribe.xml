@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/craig/Desktop/HellScribe/KiCAD/HellScribe.sch</source>
-    <date>Monday, September 12, 2016 'PMt' 09:02:24 PM</date>
+    <date>Wednesday, September 21, 2016 'AMt' 11:20:12 AM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -496,7 +496,7 @@
       <tstamp>57C00851</tstamp>
     </comp>
     <comp ref="Q9">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -510,7 +510,7 @@
       <tstamp>57C0473B</tstamp>
     </comp>
     <comp ref="Q8">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -524,7 +524,7 @@
       <tstamp>57C04CE5</tstamp>
     </comp>
     <comp ref="Q7">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -538,7 +538,7 @@
       <tstamp>57C04D81</tstamp>
     </comp>
     <comp ref="Q6">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -552,7 +552,7 @@
       <tstamp>57C04ED0</tstamp>
     </comp>
     <comp ref="Q5">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -566,7 +566,7 @@
       <tstamp>57C04F7B</tstamp>
     </comp>
     <comp ref="Q4">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -580,7 +580,7 @@
       <tstamp>57C05023</tstamp>
     </comp>
     <comp ref="Q3">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -594,7 +594,7 @@
       <tstamp>57C050D0</tstamp>
     </comp>
     <comp ref="Q2">
-      <value>Q_PMOS_GSD</value>
+      <value>FDV304P</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
       <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV304P.pdf</datasheet>
       <fields>
@@ -722,12 +722,12 @@
     <comp ref="C7">
       <value>10uF</value>
       <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
-      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL31B106KLHNNNE.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part #">C3216X7R1V106M160AC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Manufacturer Part #">CL31B106KLHNNNE</field>
         <field name="Vendor">Digikey</field>
-        <field name="Vendor Part #">445-8034-1-ND</field>
+        <field name="Vendor Part #">1276-3103-1-ND</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -900,14 +900,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    <library logical="transistors">
+      <uri>/Library/Application Support/kicad/library/transistors.lib</uri>
     </library>
     <library logical="device">
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
-    <library logical="transistors">
-      <uri>/Library/Application Support/kicad/library/transistors.lib</uri>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
     <library logical="linear">
       <uri>/Library/Application Support/kicad/library/linear.lib</uri>
@@ -952,20 +952,20 @@
       <node ref="C7" pin="2"/>
       <node ref="R1" pin="1"/>
       <node ref="R6" pin="2"/>
-      <node ref="Q7" pin="3"/>
-      <node ref="Q6" pin="3"/>
-      <node ref="Q5" pin="3"/>
-      <node ref="Q4" pin="3"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="Q2" pin="3"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q2" pin="2"/>
       <node ref="R4" pin="1"/>
-      <node ref="Q9" pin="3"/>
-      <node ref="Q8" pin="3"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q8" pin="2"/>
       <node ref="R9" pin="2"/>
     </net>
     <net code="8" name="Net-(D15-Pad1)">
-      <node ref="D15" pin="1"/>
       <node ref="D16" pin="2"/>
+      <node ref="D15" pin="1"/>
     </net>
     <net code="9" name="Net-(U2-Pad12)">
       <node ref="U2" pin="12"/>
@@ -979,36 +979,36 @@
       <node ref="U2" pin="1"/>
     </net>
     <net code="12" name="Net-(D1-Pad2)">
-      <node ref="Q2" pin="2"/>
       <node ref="D1" pin="2"/>
+      <node ref="Q2" pin="3"/>
     </net>
     <net code="13" name="Net-(D3-Pad2)">
-      <node ref="Q3" pin="2"/>
+      <node ref="Q3" pin="3"/>
       <node ref="D3" pin="2"/>
     </net>
     <net code="14" name="Net-(D5-Pad2)">
-      <node ref="Q4" pin="2"/>
+      <node ref="Q4" pin="3"/>
       <node ref="D5" pin="2"/>
     </net>
     <net code="15" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
-      <node ref="Q5" pin="2"/>
+      <node ref="Q5" pin="3"/>
     </net>
     <net code="16" name="Net-(D9-Pad2)">
-      <node ref="Q6" pin="2"/>
       <node ref="D9" pin="2"/>
+      <node ref="Q6" pin="3"/>
     </net>
     <net code="17" name="Net-(D11-Pad2)">
-      <node ref="Q7" pin="2"/>
+      <node ref="Q7" pin="3"/>
       <node ref="D11" pin="2"/>
     </net>
     <net code="18" name="Net-(D13-Pad2)">
       <node ref="D13" pin="2"/>
-      <node ref="Q8" pin="2"/>
+      <node ref="Q8" pin="3"/>
     </net>
     <net code="19" name="Net-(D15-Pad2)">
       <node ref="D15" pin="2"/>
-      <node ref="Q9" pin="2"/>
+      <node ref="Q9" pin="3"/>
     </net>
     <net code="20" name="Net-(D13-Pad1)">
       <node ref="D14" pin="2"/>

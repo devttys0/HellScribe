@@ -1393,11 +1393,11 @@ P 9000 1800
 F 0 "C7" H 9050 1700 50  0000 L CNN
 F 1 "10uF" H 8750 1900 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 9038 1650 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 9000 1800 50  0001 C CNN
-F 4 "TDK Corporation" V 9000 1800 60  0001 C CNN "Manufacturer"
-F 5 "C3216X7R1V106M160AC" V 9000 1800 60  0001 C CNN "Manufacturer Part #"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL31B106KLHNNNE.pdf" H 9000 1800 50  0001 C CNN
+F 4 "Samsung" V 9000 1800 60  0001 C CNN "Manufacturer"
+F 5 "CL31B106KLHNNNE" V 9000 1800 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" V 9000 1800 60  0001 C CNN "Vendor"
-F 7 "445-8034-1-ND" V 9000 1800 60  0001 C CNN "Vendor Part #"
+F 7 "1276-3103-1-ND" V 9000 1800 60  0001 C CNN "Vendor Part #"
 	1    9000 1800
 	-1   0    0    1   
 $EndComp
