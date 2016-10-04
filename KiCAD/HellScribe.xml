@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/craig/Desktop/HellScribe/KiCAD/HellScribe.sch</source>
-    <date>Wednesday, September 21, 2016 'AMt' 11:20:12 AM</date>
+    <date>Monday, October 03, 2016 'PMt' 09:55:16 PM</date>
     <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -459,9 +459,9 @@
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer Part #">RC0402FR-071KL</field>
+        <field name="Manufacturer Part #">RC0603FR-07100RL</field>
         <field name="Vendor">Digikey</field>
-        <field name="Vendor Part #">311-1.00KLRCT-ND</field>
+        <field name="Vendor Part #">311-100HRCT-ND</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -906,14 +906,14 @@
     <library logical="device">
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
     <library logical="linear">
       <uri>/Library/Application Support/kicad/library/linear.lib</uri>
     </library>
     <library logical="cmos4000">
       <uri>/Library/Application Support/kicad/library/cmos4000.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
     <library logical="STX3100">
       <uri>/Users/craig/Desktop/HellScribe/KiCAD/libs/Schematic/STX3100.lib</uri>

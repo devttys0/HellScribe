@@ -744,9 +744,9 @@ F 1 "1k" V 800 1100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 730 1100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_04.pdf" H 800 1100 50  0001 C CNN
 F 4 "Yageo" V 800 1100 60  0001 C CNN "Manufacturer"
-F 5 "RC0402FR-071KL" V 800 1100 60  0001 C CNN "Manufacturer Part #"
+F 5 "RC0603FR-07100RL" V 800 1100 60  0001 C CNN "Manufacturer Part #"
 F 6 "Digikey" V 800 1100 60  0001 C CNN "Vendor"
-F 7 "311-1.00KLRCT-ND" V 800 1100 60  0001 C CNN "Vendor Part #"
+F 7 "311-100HRCT-ND" V 800 1100 60  0001 C CNN "Vendor Part #"
 	1    800  1100
 	1    0    0    -1  
 $EndComp
